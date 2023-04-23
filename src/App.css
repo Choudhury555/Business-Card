@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #23252C;
+    font-family: Inter,sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 116px;  
+}
+.card{
+    background: white;
+    width: 317px;
+    height: 780px;
+    border-radius: 10px;
+}
+
+.dpimage{
+    background: lightblue;
+    height: 317px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profile-fact{
+    background: #1A1B21;
+    height: 399px;
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    background: red;
+    text-align: center;
+    line-height: 0px;
+    font-family: 'Inter';
+    background: #1A1B21;
+    color: white;
+    /* font-weight: 700; */
+    /* margin-top: 0; */
+}
+.profile-header h2{
+    font-size: 20px;
+}
+.profile-header h3{
+    margin-top: 3px;
+    color: #F3BF99;
+    font-size: 13px;
+}
+.profile-header p{
+    font-size: 12px;
+}
+
+.profile-social{
+    display: flex;
+    background: blue;
+    justify-content: space-around;
+    padding: 15px;
+    gap: 8px;
+    background: #1A1B21;
+}
+.profile-social button{
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px; 
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.profile-social .linkedin{
+    color: white;
+    background: #5093E2;
+    letter-spacing: 1px;
+}
+
+.profile-social .fa-envelope{
+    margin-left: 10%;
+}
+
+.profile-social .email{
+    letter-spacing: 1px;
+}
+
+.profile-social .underline{
+    text-decoration: none;   
+}
+
+.profile-about{
+    font-size: 13px;
+    padding: 15px;
+    margin-top: -19px;
+    word-wrap:break-word;
+    color: #DCDCDC;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 25px;
+    margin-top: -10px;
+    font-size: 30px;
+    background: #161619;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer i{
+    color: #918E9B;
+}
+
+.bold-red{
+    color: red;
+}
+
